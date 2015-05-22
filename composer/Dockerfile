@@ -2,6 +2,8 @@ FROM alpine:3.1
 
 MAINTAINER Dmitry Gavriloff <info@imega.ru>
 
+ENV COMPOSER_CACHE_DIR=/cache
+
 RUN echo '@stale http://mirror.yandex.ru/mirrors/alpine/v3.0/main' >> /etc/apk/repositories && \
 	apk add --update curl \
 		git \
@@ -18,5 +20,7 @@ RUN echo '@stale http://mirror.yandex.ru/mirrors/alpine/v3.0/main' >> /etc/apk/r
 	rm -rf /var/cache/apk/*
 
 WORKDIR /data
+
+VOLUME ["/data", "/cache"]
 
 ENTRYPOINT ["/usr/local/bin/composer", "--ignore-platform-reqs", "--no-interaction"]

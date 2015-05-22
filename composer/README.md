@@ -12,3 +12,8 @@ Composer version: 1.0.0-alpha10
 ```
 $ docker run --rm -v /path/to/project/:/data imega/composer install --no-dev
 ```
+## License
+
+And of course:
+
+MIT: http://rem.mit-license.org

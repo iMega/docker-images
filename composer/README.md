@@ -16,4 +16,4 @@ $ docker run --rm -v /path/to/project/:/data imega/composer install --no-dev
 
 And of course:
 
-MIT: http://rem.mit-license.org
+MIT: http://mit-license.org

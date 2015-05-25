@@ -15,6 +15,7 @@ RUN echo '@stale http://mirror.yandex.ru/mirrors/alpine/v3.0/main' >> /etc/apk/r
 		php-json@stale \
 		php-ctype@stale \
 		php-xml@stale \
+		php-dom@stale \
 		php-openssl@stale && \
 	curl -k -sS https://getcomposer.org/installer | php -- --version=1.0.0-alpha10 --install-dir=/usr/local/bin --filename=composer && \
 	apk del curl && \

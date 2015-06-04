@@ -1,7 +1,7 @@
 # Base builder
 This is docker image for builders.
 
-Image size:  MB
+Image size: 5 MB
 
 From image: alpine:3.2
 

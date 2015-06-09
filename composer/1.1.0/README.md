@@ -1,6 +1,8 @@
 # composer
 This is docker image to run the [composer](https://getcomposer.org).
 
+[![](https://badge.imagelayers.io/imega/composer:1.1.0.svg)](https://imagelayers.io/?images=imega/composer:1.1.0 'Get your own badge on imagelayers.io')
+
 Image size: 43 MB
 
 From image: alpine:3.2

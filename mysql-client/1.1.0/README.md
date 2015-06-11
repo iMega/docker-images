@@ -14,11 +14,5 @@ You make [container with MySQL server](http://imega.club/2015/04/30/docker-image
 Mysql console
 
 ```
-$ docker run -v /path/to/dumps:/sql --link mysqlsrv:mysqlsrv -it imega/mysql-client:1.1.0 -h mysqlsrv
-```
-
-Mysql dump
-
-```
-$ docker run -v /path/to/dumps:/sql --link mysqlsrv:mysqlsrv imega/mysql-client:1.1.0 -h mysqlsrv -D imega -e "source /sql/dump.sql"
+$ docker run -v /path/to/dumps:/sql --link mysqlsrv:mysqlsrv -it imega/mysql-client:1.1.0 mysql --host=example.com --user=root --password=123321 --database=mydb --execute='show tables;'
 ```

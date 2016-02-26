@@ -1,7 +1,7 @@
 # Redis
-This is docker image to run the [redis](https://redis.io).
+This is docker image to run the [redis](http://redis.io).
 
-Image size: 6.5 MB
+Image size: 5.7 MB
 
 From image: alpine:3.3
 

@@ -1,6 +1,8 @@
 # Unzip
 This is docker image to run the [unzip](http://www.info-zip.org/UnZip.html).
 
+[![](https://badge.imagelayers.io/imega/unzip:latest.svg)](https://imagelayers.io/?images=imega/unzip:latest 'Get your own badge on imagelayers.io')
+
 Image size: 5.1 MB
 
 From image: alpine:3.3

@@ -5,4 +5,4 @@ COPY . /
 RUN apk add --update unzip && \
     rm -rf /var/cache/apk/*
 
-CMD ["./entry.sh"]
+CMD ["/entry.sh"]

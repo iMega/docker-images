@@ -20,4 +20,4 @@ RUN apk add --update curl \
     apk del curl && \
     rm -rf /var/cache/apk/*
 
-ENTRYPOINT ["/usr/local/bin/composer", "--ignore-platform-reqs", "--no-interaction"]
+ENTRYPOINT ["/usr/local/bin/composer"]

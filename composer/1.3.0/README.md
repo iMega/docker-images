@@ -12,7 +12,7 @@ Composer version: 1.0.0-beta1
 ## Usage
 
 ```
-$ docker run --rm -v /path/to/project/:/data imega/composer:1.3.0 install --no-dev --ignore-platform-reqs --no-interaction
+$ docker run --rm -v /path/to/project/:/data imega/composer:1.3.0 install --no-dev
 ```
 ## License
 

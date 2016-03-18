@@ -1,6 +1,10 @@
 # composer
 This is docker image to run the [composer](https://getcomposer.org).
 
+Version 2.0.0 [![](https://badge.imagelayers.io/imega/composer:2.0.0.svg)](https://imagelayers.io/?images=imega/composer:2.0.0 'Get your own badge on imagelayers.io')
+
+Version 1.4.0 [![](https://badge.imagelayers.io/imega/composer:1.4.0.svg)](https://imagelayers.io/?images=imega/composer:1.4.0 'Get your own badge on imagelayers.io')
+
 Version 1.3.0 [![](https://badge.imagelayers.io/imega/composer:1.3.0.svg)](https://imagelayers.io/?images=imega/composer:1.3.0 'Get your own badge on imagelayers.io')
 
 Version 1.2.0 [![](https://badge.imagelayers.io/imega/composer:1.2.0.svg)](https://imagelayers.io/?images=imega/composer:1.2.0 'Get your own badge on imagelayers.io')
@@ -14,7 +18,7 @@ Version 1.0.0 [![](https://badge.imagelayers.io/imega/composer:1.0.0.svg)](https
 ## Usage
 
 ```
-$ docker run --rm -v /path/to/project/:/data imega/composer:1.3.0 install --no-dev
+$ docker run --rm -v /path/to/project/:/data imega/composer:2.0.0 install --no-dev --ignore-platform-reqs --no-interaction
 ```
 ## License
 

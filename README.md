@@ -21,3 +21,5 @@ This is docker image to run the [redis](http://redis.io).
 [Unzip](https://github.com/iMega/docker-images/tree/master/unzip)
 
 This is docker image to run the [unzip](http://www.info-zip.org/UnZip.html).
+
+[Half-Life Dedicated Server](https://github.com/iMega/docker-images/tree/master/hlds)

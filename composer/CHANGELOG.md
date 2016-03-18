@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+1.4.0
+-----
+
+ * Removed "--ignore-platform-reqs" and "--no-interaction" options from entrypoint
+
 1.3.0
 -----
 

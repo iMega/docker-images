@@ -15,7 +15,8 @@ RUN echo "@stale http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/re
         php7-ctype@stale \
         php7-xml@stale \
         php7-dom@stale \
-        php7-openssl@stale && \
+        php7-openssl@stale \
+        php7-mbstring@stale && \
     ln -s /usr/bin/php7 /usr/bin/php && \
     curl -k -sS https://getcomposer.org/installer | php -- --version=1.0.0 --install-dir=/usr/local/bin --filename=composer && \
     apk del curl && \

@@ -20,6 +20,7 @@ RUN echo "@stale http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/re
     ln -s /usr/bin/php7 /usr/bin/php && \
     curl -k -sS https://getcomposer.org/installer | php -- --version=1.0.0 --install-dir=/usr/local/bin --filename=composer && \
     apk del curl && \
-    rm -rf /var/cache/apk/*
+    rm -rf /var/cache/apk/* && \
+    ln -s /bin/sh /bin/bash
 
 ENTRYPOINT ["/usr/local/bin/composer"]

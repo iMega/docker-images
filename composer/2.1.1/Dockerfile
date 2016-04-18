@@ -6,6 +6,7 @@ ENV COMPOSER_CACHE_DIR=/cache
 
 RUN echo "@stale http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
     apk add --update curl \
+        bash \
         git \
         php7@stale \
         php7-common@stale \

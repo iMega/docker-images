@@ -6,7 +6,6 @@ ENV COMPOSER_CACHE_DIR=/cache
 
 RUN echo "@stale http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
     apk add --update curl \
-        bash \
         git \
         php7@stale \
         php7-common@stale \
@@ -21,6 +20,9 @@ RUN echo "@stale http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/re
     ln -s /usr/bin/php7 /usr/bin/php && \
     curl -k -sS https://getcomposer.org/installer | php -- --version=1.0.0 --install-dir=/usr/local/bin --filename=composer && \
     apk del curl && \
+    printf '#!/bin/sh \n exec /bin/sh "$@"' > /bin/bash && \
+    chmod a+rx /bin/bash && \
+    /usr/bin/env bash -c 'echo BASH FORWARDER OK' && \
     rm -rf /var/cache/apk/*
 
 ENTRYPOINT ["/usr/local/bin/composer"]

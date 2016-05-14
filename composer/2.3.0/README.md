@@ -7,7 +7,7 @@ Image size: 18 MB
 
 From image: alpine:3.3
 
-PHP 7.0.5
+PHP 7.0.6
 
 Composer version: 1.1.0
 

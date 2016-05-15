@@ -2,7 +2,7 @@
 This is docker image to run the [composer](https://getcomposer.org).
 
 | Version | Alpine | PHP | Composer | Size | Badge |
-|----|----|----|----|
+|----|----|----|----|----|
 | 2.3.1 | 3.3 | 7.0.6 | 1.1.0 | 36 MB | [![](https://badge.imagelayers.io/imega/composer:2.3.1.svg)](https://imagelayers.io/?images=imega/composer:2.3.1 'Get your own badge on imagelayers.io') |
 | 2.3.0 | 3.3 | 7.0.6 | 1.1.0 | *18 MB* | [![](https://badge.imagelayers.io/imega/composer:2.3.0.svg)](https://imagelayers.io/?images=imega/composer:2.3.0 'Get your own badge on imagelayers.io') |
 | 2.2.1 | 3.3 | 7.0.6 | 1.1.0 | 45 MB | [![](https://badge.imagelayers.io/imega/composer:2.2.1.svg)](https://imagelayers.io/?images=imega/composer:2.2.1 'Get your own badge on imagelayers.io') |

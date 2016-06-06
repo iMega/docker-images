@@ -35,6 +35,7 @@ if [[ ! -z $DEV_PACKAGES ]]; then
 fi
 
 cp /etc/passwd $ROOTFS/etc/passwd
+cp /etc/group $ROOTFS/etc/group
 
 if [ -d /src ]; then
     export SRC=/src

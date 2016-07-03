@@ -13,6 +13,7 @@ RUN apk add --update mysql && \
         echo 'datadir = /var/lib/mysql'; \
         echo 'port = 3306'; \
         echo 'log-bin = /var/lib/mysql/mysql-bin'; \
+        echo 'socket = /var/lib/mysql/mysql.sock'; \
         echo '!includedir /etc/mysql/conf.d/'; \
     } > /etc/mysql/my.cnf && \
     rm -rf /var/cache/apk/*

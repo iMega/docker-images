@@ -1,92 +1,66 @@
-# composer
+# Composer
 This is docker image to run the [composer](https://getcomposer.org).
 
-[![](https://badge.imagelayers.io/imega/composer:1.2.0.svg)](https://imagelayers.io/?images=imega/composer:1.2.0 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/imega/composer:1.2.0.svg)](http://microbadger.com/images/imega/composer:1.2.0 "Get your own image badge on microbadger.com")
 
-Image size: 44 MB
+Image size: 34.81 MB
 
-From image: alpine:3.2
+From image: alpine:3.4
 
-Composer version: 1.0.0-alpha11
+PHP 7.0.9
+
+Composer version: 1.2.0
 
 ## Usage
 
 ```
-$ docker run --rm -v /path/to/project/:/data imega/composer:1.2.0 install --no-dev
+$ docker run --rm -v /path/to/project/:/data imega/composer:1.2.0 install --no-dev --ignore-platform-reqs --no-interaction
 ```
 
 ## Alpine Packages
-  - musl
-  - busybox
-  - alpine-baselayout
-  - openrc
-  - alpine-conf
-  - zlib
-  - libcrypto1.0
-  - libssl1.0
-  - apk-tools
-  - busybox-initscripts
-  - scanelf
-  - musl-utils
-  - libc-utils
-  - alpine-keys
-  - alpine-base
-  - run-parts
-  - openssl
-  - lua5.2-libs
-  - lua5.2
-  - ncurses-terminfo-base
-  - ncurses-widec-libs
-  - lua5.2-posix
-  - ca-certificates
-  - libssh2
-  - curl
-  - expat
-  - pcre
-  - git
-  - php-common
-  - ncurses-libs
-  - readline
-  - libxml2
-  - php-cli
-  - php
-  - php-cgi
-  - php-ctype
-  - php-dom
-  - php-json
-  - php-openssl
-  - php-phar
-  - php-xml
+  - musl (1.1.14-r11)
+  - zlib (1.2.8-r2)
+  - libcrypto1.0 (1.0.2h-r1)
+  - busybox (1.24.2-r11)
+  - ca-certificates (20160104-r4)
+  - libssl1.0 (1.0.2h-r1)
+  - libssh2 (1.7.0-r0)
+  - libcurl (7.50.1-r0)
+  - expat (2.1.1-r1)
+  - pcre (8.38-r1)
+  - git (2.8.3-r0)
+  - php7-common (7.0.9-r0)
+  - libxml2 (2.9.4-r0)
+  - php7 (7.0.9-r0)
+  - php7-json (7.0.9-r0)
+  - php7-mbstring (7.0.9-r0)
+  - php7-openssl (7.0.9-r0)
+  - php7-phar (7.0.9-r0)
+  - php7-zlib (7.0.9-r0)
 
 ## PHP Modules
   - Core
-  - ctype
   - date
-  - dom
-  - ereg
   - fileinfo
   - filter
   - hash
   - json
   - libxml
   - mbstring
-  - mysqlnd
   - openssl
   - pcre
   - Phar
-  - readline
   - Reflection
-  - session
   - SimpleXML
   - SPL
   - standard
   - tokenizer
-  - xml
   - xmlwriter
+  - zlib
 
-##  The MIT License (MIT)
+## The MIT License (MIT)
 
-Copyright © 2015 iMega <info@imega.ru>
+Copyright © 2016 iMega <info@imega.ru>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

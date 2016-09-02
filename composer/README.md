@@ -1,4 +1,4 @@
-`The project is transferred to ` https://github.com/imega-docker/composer
+**The project is transferred to** https://github.com/imega-docker/composer
 
 # Composer
 This is docker image to run the [composer](https://getcomposer.org).

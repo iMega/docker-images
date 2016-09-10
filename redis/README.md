@@ -1,3 +1,5 @@
+**The project is transferred to** https://github.com/imega-docker/redis
+
 # Redis
 This is docker image to run the [redis](http://redis.io).
 

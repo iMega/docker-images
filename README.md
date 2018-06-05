@@ -1,4 +1,8 @@
-# Imega's docker images
+# DEPRECATION NOTICE
+
+This image has been deprecated in favor of the official group [imega-docker](https://github.com/imega-docker). And see  [https://hub.docker.com/u/imega/](https://hub.docker.com/u/imega/) 
+
+## Imega's docker images
 
 The following describes the available images:
 
